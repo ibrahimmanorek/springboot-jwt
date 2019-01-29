@@ -11,6 +11,8 @@ import com.ibrahim.springbootjwt.utils.Helper;
 @RestController
 public class IndexController {
 	
+	//test
+	
 	@GetMapping("gettoken")
 	public Auth getToken(@RequestHeader("Authorization") String authorization) throws ForbiddenException {
 		Auth auth = new Auth();
